@@ -5,29 +5,19 @@
 ## 实验简介
 1. 实现一个多模态情感分类模型，结合了文本和图像信息来进行情感分类。
 2. 通过只输入图片或者文本的方式进行消融实验
-3. 将该项目文件上传到Github。<br>
-Github地址：https://github.com/xie0526/-img_and_text_sentiment_classification
 
 ---
 
-## 文件结构
-- 代码文件  
-  - 模块代码  
-    - data.py # 数据加载与预处理
-    - evaluate_model.py # 模型评估
-    - models.py # 文字编码器和图像编码器以及多模态模型建构
-    - image_only_model.py # 消融实验图像模型
-    - text_only_model.py # 消融实验文本模型
-    - train.py # 训练函数
-    - predict.py #预测函数
-  - 消融实验.ipynb # 可直接实现消融实验，训练多模态模型、文本模型、图像模型并评估
-  - 预测结果.ipynb # 可直接加载数据集文件并预测结果
-- 实验五数据 # 实验五数据
-  - data # 图像和文本数据文件夹
-  - test_without_label.txt # 待预测文件
-  - train.txt # 训练文件
-- 实验报告五.pdf # 实验报告
-- predictions.txt # 预测文件结果
+## 文件结构  
+- data.py # 数据加载与预处理
+- evaluate_model.py # 模型评估
+- models.py # 文字编码器和图像编码器以及多模态模型建构
+- image_only_model.py # 消融实验图像模型
+- text_only_model.py # 消融实验文本模型
+- train.py # 训练函数
+- predict.py #预测函数
+- 消融实验.ipynb # 可直接实现消融实验，训练多模态模型、文本模型、图像模型并评估
+- 预测结果.ipynb # 可直接加载数据集文件并预测结果
 - requesments.txt 项目所需环境
 - README.md # 项目文档
 
